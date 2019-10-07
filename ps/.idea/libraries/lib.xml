@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib" />
+      <root url="file://$USER_HOME$/Documents/Tencent Files/1763832470/FileRecv/opencvInstall/opencv/build/java" />
+      <root url="jar://$PROJECT_DIR$/../opencv/opencv-341.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../opencv" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/Tencent Files/1763832470/FileRecv/opencvInstall/opencv/build/java" />
+      <root url="jar://$PROJECT_DIR$/../opencv/opencv-341.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Documents/Tencent Files/1763832470/FileRecv/opencvInstall/opencv/build/java" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Documents/Tencent Files/1763832470/FileRecv/opencvInstall/opencv/build/java" recursive="false" type="SOURCES" />
+  </library>
+</component>
