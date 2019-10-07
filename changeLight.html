@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<title>首页</title>
+<style type="text/css">
+/* #headTitle img {
+    width: 150px;
+    height: 50px;
+} */
+/*灰度*/
+.logo_pic { 
+    /* -webkit-filter: grayscale(1);
+    filter: grayscale(1); */
+    
+}
+/*亮度*/
+.bright {
+    -webkit-filter: brightness(1.5);
+    filter: brightness(1.5);
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+</style>
+<script type="text/javascript">
+    //初始亮度
+    var brightVal = 1;
+    function addBrightness() {
+        /* -webkit-filter: brightness(2.3);
+        filter: brightness(2.3); */
+
+        brightVal = brightVal + 0.1;
+        $(".logo_pic").css("-webkit-filter", "brightness(" + brightVal + ")");
+        $(".logo_pic").css("filter", "brightness(" + brightVal + ")");
+        //$(".logo_pic").addClass("bright");
+    }
+
+    function reduceBrightness() {
+        brightVal = brightVal - 0.1;
+        $(".logo_pic").css("-webkit-filter", "brightness(" + brightVal + ")");
+        $(".logo_pic").css("filter", "brightness(" + brightVal + ")");
+        //$(".logo_pic").removeClass("bright");
+    }
+</script>
+</head>
+<body>
+    <h2 id="headTitle">
+   	copyright@stonee.club
+        <br> 
+        <img class="logo_pic" alt="腾讯官网" src="http://www.stonee.club/img/me1.58784ebb.jpg" />
+    </h2>
+    <!-- <a href="javascript:void(0);" onclick="addBrightness();">点亮徽章</a>
+    <a href="javascript:void(0);" onclick="reduceBrightness()">熄灭徽章</a> -->
+    增加亮度:
+    <a href="javascript:void(0);" onclick="addBrightness();">+</a>
+    减少亮度：
+    <a href="javascript:void(0);" onclick="reduceBrightness()">-</a>
+</body>
+</html>
